@@ -465,3 +465,17 @@ p{
   font-weight: 500 !important;
 }
 
+.btn > p{
+  font-weight: 700 !important;
+}
+
+.title{
+  font-family: "GintoNord" !important;
+font-weight: 800 !important;
+}
+
+.title_below{
+
+  font-family: "ggSans" !important;
+  font-weight: 700 !important;
+}
