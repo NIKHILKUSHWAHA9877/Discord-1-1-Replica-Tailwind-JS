@@ -1,0 +1,461 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 300;
+  src: url(fonts/Whitney/Whitney-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 400;
+  src: url(fonts/Whitney/Whitney-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 500;
+  src: url(fonts/Whitney/Whitney-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 600;
+  src: url(fonts/Whitney/Whitney-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: Whitney;
+  font-weight: 700;
+  src: url(fonts/Whitney/Whitney-700.woff) format("woff");
+}
+
+/***************/
+/*    Ginto    */
+/***************/
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 300;
+  src: url(fonts/Ginto/Ginto-300.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 400;
+  src: url(fonts/Ginto/Ginto-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 500;
+  src: url(fonts/Ginto/Ginto-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  src: url(fonts/Ginto/Ginto-600.woff) format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 700;
+  src: url(fonts/Ginto/Ginto-700.woff) format("woff");
+}
+
+/****************/
+/* Ginto-Italic */
+/****************/
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 300;
+  font-style: italic;
+  src: url(fonts/Ginto/Ginto-300-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 400;
+  font-style: italic;
+  src: url(fonts/Ginto/Ginto-400-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 500;
+  font-style: italic;
+  src: url(fonts/Ginto/Ginto-500-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 600;
+  font-style: italic;
+  src: url(fonts/Ginto/Ginto-600-italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: Ginto;
+  font-weight: 700;
+  font-style: italic;
+  src: url(fonts/Ginto/Ginto-700-italic.woff) format("woff");
+}
+
+/**************/
+/* Ginto-Nord */
+/**************/
+
+@font-face {
+  font-family: GintoNord;
+  font-weight: 500;
+  src: url(fonts/Ginto-Nord/Ginto-Nord-500.woff2) format("woff2"),
+    url(fonts/Ginto-Nord/Ginto-Nord-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+  font-weight: 600;
+  src: url(fonts/Ginto-Nord/Ginto-Nord-600.woff2) format("woff2"),
+    url(fonts/Ginto-Nord/Ginto-Nord-600.woff) format("woff");
+}
+
+@font-face {
+  font-family: GintoNord;
+  font-weight: 700;
+  src: url(fonts/Ginto-Nord/Ginto-Nord-700.woff2) format("woff2"),
+    url(fonts/Ginto-Nord/Ginto-Nord-700.woff) format("woff");
+}
+
+/***************/
+/*   gg sans   */
+/***************/
+@font-face {
+  font-family: "ggSans";
+  font-weight: 400;
+  src: url(fonts/gg-sans/ggsans-Normal.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+  font-weight: 500;
+  src: url(fonts/gg-sans/ggsans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+  font-weight: 600;
+  src: url(fonts/gg-sans/ggsans-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "ggSans";
+  font-weight: 700;
+  src: url(fonts/gg-sans/ggsans-Bold.ttf);
+}
+
+/* .text-left{
+
+    font-family: "GintoNord";
+  } */
+
+
+.btn:hover {
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+
+}
+
+.btn {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 16px 32px;
+
+}
+
+
+
+button:hover {
+  background-color: hsl(235, 86.1%, 71.8%);
+  background-color: hsl(235, calc(var(--saturation-factor, 1)*86.1%), 71.8%)
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+  background-color: hsl(223, calc(var(--saturation-factor, 1)*6.7%), 20.6%)
+}
+
+
+
+
+/*  
+  background: #fff;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 24px 48px 120px 24px;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 330px;
+  z-index: 9999;
+  overflow: hidden;
+} */
+
+
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  border-bottom: 1px solid #E2E8F0;
+}
+
+
+
+.hamburger {
+  display: none;
+  z-index: 9999;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 35px;
+  font-family: "ggSans";
+  font-weight: 600;
+  /* margin: 30px;
+  margin-left: 30px; */
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #482ff7;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+.nav-logo {
+  font-size: 2.1rem;
+  font-weight: 500;
+  color: #482ff7;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+
+    background: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 24px 48px 120px 24px;
+    /* overflow-y: scroll; */
+
+    top: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 230px;
+    z-index: 999;
+    overflow: hidden;
+
+  }
+
+  .ham {
+    margin: 15px;
+  }
+
+
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    color: #000;
+  }
+
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 10;
+
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+
+nav {
+  overflow: hidden;
+}
+
+/* nav logo */
+.logo2-3lyhKw {
+  color: #000;
+}
+
+/* nav 2 */
+
+
+.nav_menu_hamburger {
+  display: flex;
+  /* Show the hamburger menu when the screen size is less than 768px */
+  position: fixed;
+  left: -100%;
+  top: 5rem;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  /* align-items: center; */
+  padding: 8px 16px;
+  color: #23272a;
+
+
+}
+
+
+.nav-link {
+  font-size: 15px;
+  padding: 0px 10px;
+
+
+}
+
+.ham>a {
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  margin: 15px;
+
+}
+
+.spacer-1rBaoF {
+  width: 100%;
+  height: 1px;
+  background: #ebedef;
+
+}
+
+.navbtn {
+  background-color: #404EED;
+  color: white;
+  white-space: nowrap;
+  font-size: 14px;
+  border-radius: 40px;
+  font-size: 14px;
+  padding: 10px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.naBttn {
+  padding: 130px !important;
+}
+
+.ham .nav-link:hover {
+  background-color: rgb(241, 241, 241);
+  color: blue;
+  border-radius: 10px;
+  width: 80%;
+  text-align: left;
+  text-decoration: underline;
+}
+
+.first_child {
+  margin-bottom: 30px !important;
+  text-align: left;
+}
+
+
+.first {
+  background-color: rgb(241, 241, 241);
+  color: blue;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px !important;
+  text-align: left;
+}
+
+
+/* svg,s logo editing */
+.UpperSvg{
+margin: 20px;
+}
+.UpperSvg2{
+  margin: 20px;
+  height: 25px;
+  width: 30px;
+}
+.MainSvg{
+
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+
+}
+
+.no-scroll {
+  /* position: fixed;
+    width: 100%;
+    height: 100%; */
+    overflow: hidden;
+}
