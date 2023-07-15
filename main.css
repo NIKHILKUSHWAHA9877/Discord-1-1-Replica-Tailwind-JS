@@ -459,3 +459,9 @@ margin: 20px;
     height: 100%; */
     overflow: hidden;
 }
+
+p{
+  font-family:'Courier New', Courier, monospace !important;
+  font-weight: 500 !important;
+}
+
