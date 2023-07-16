@@ -640,6 +640,7 @@ p{
 font-family: 'Gasoek One', sans-serif !important;
 font-weight: 300 !important;
 letter-spacing: 5px !important;
+white-space: nowrap;
 }
 
 .title_below{
